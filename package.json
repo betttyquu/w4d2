@@ -1,0 +1,24 @@
+{
+  "name": "w4d2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "knex_lookup_people.js",
+  "dependencies": {
+    "knex": "^0.16.5",
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betttyquu/w4d2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/betttyquu/w4d2/issues"
+  },
+  "homepage": "https://github.com/betttyquu/w4d2#readme"
+}

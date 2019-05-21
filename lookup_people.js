@@ -22,6 +22,7 @@ client.connect((err) => {
     }
     console.log("Searching ...");
     console.log(`Found ${result.rows.length} person(s) by the name '${name}'`);
+    
     result.rows.forEach((element,index) => {
       console.log(`- ${index + 1}: ${element.first_name} ${element.last_name}, born '${element.birthdate.toLocaleDateString()}'`);
     });
